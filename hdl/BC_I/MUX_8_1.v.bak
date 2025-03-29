@@ -1,0 +1,18 @@
+module MUX_8_1 
+#(parameter WORD = 16)
+(
+input select[2:0],
+input IN_0[WORD-1:0],
+input IN_1[WORD-1:0],
+input IN_2[WORD-1:0],
+input IN_3[WORD-1:0],
+input IN_4[WORD-1:0],
+input IN_5[WORD-1:0],
+input IN_6[WORD-1:0],
+input IN_7[WORD-1:0],
+output OUT[WORD-1:0]
+);
+
+
+
+endmodule

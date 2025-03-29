@@ -1,0 +1,2 @@
+Info (10281): Verilog HDL Declaration information at MemoryUnit.v(2): object "ADDRESS" differs only in case from object "address" in the same scope
+Info (10281): Verilog HDL Declaration information at comb_control_logic.v(11): object "R" differs only in case from object "r" in the same scope

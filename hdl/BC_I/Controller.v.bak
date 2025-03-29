@@ -1,0 +1,8 @@
+module Controller 
+#(parameter WORD = 16, ADDRESS = 12)
+(
+input,
+output
+);
+
+endmodule

@@ -1,0 +1,29 @@
+module decoder_4to16
+(
+input IN0, IN1, IN2, IN3
+output [15:0] D
+);
+
+always @(*) begin
+	case ({IN3,IN2,IN1,IN0})
+		3'd0: D = 16'h0001;
+		3'd1: D = 16'h0002;
+		3'd2: D = 16'h0004;
+		3'd3: D = 16'h0008;
+		3'd4: D = 16'h0010;
+		3'd5: D = 16'h0020;
+		3'd6: D = 16'h0040;
+		3'd7: D = 16'h0080;
+		3'd8: D = 16'h0100;
+		3'd9: D = 16'h0200;
+		3'd10: D = 16'h0400;
+		3'd11: D = 16'h0800;
+		3'd12: D = 16'h1000;
+		3'd13: D = 16'h2000;
+		3'd14: D = 16'h4000;
+		3'd15: D = 16'h8000;
+		default: D = 16'h0001;;
+	endcase
+end
+
+endmodule

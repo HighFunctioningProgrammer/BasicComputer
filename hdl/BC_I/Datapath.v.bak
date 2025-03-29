@@ -1,0 +1,9 @@
+module Datapath
+#(WORD = 16, ADDRESS = 12)
+(
+input clk,
+input [2:0] select,
+output reg [WORD-1:0] OUT,
+);
+
+endmodule

@@ -1,0 +1,6 @@
+<testsuites name="results">
+  <testsuite name="all" package="all">
+    <property name="random_seed" value="1733432334" />
+    <testcase name="test_memory_check" classname="cocotb_bc1_test" file="C:\Users\ugure\cocotb_BCI\tests\cocotb_bc1_test.py" lineno="8" time="0.1486496925354004" sim_time_ns="37951000" ratio_time="255304934.39104897" />
+  </testsuite>
+</testsuites>
