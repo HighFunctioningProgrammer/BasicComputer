@@ -27,22 +27,12 @@ This project implements a basic computer, referred to as Basic Computer I (BC_I)
 - Verilog simulation tool (e.g., Icarus Verilog or ModelSim)
 - Python with `cocotb` installed for running testbenches
 
-### Compilation and Simulation
-
-1. **Compilation**:
-   ```bash
-   iverilog -o computer_simulation BC_I.v
-   ```
-2. **Run Simulation**:
-   ```bash
-   vvp computer_simulation
-   ```
-
 ### Running Testbenches
 
 Execute the testbenches using `cocotb`:
+First locate the "/tests" folder in command promt then use the following script
 ```bash
-make -C test
+make
 ```
 
 ## Documentation
